@@ -38,6 +38,14 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('Counter');
         }}
       />
+
+      <Button
+        title="Go to color demo"
+        onPress={() => {
+          console.log('button pressed');
+          navigation.navigate('Color');
+        }}
+      />
       {/* 
       <TouchableOpacity
         onPress={() => {
