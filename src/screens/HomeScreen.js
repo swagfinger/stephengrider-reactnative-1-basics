@@ -46,6 +46,15 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('Color');
         }}
       />
+
+      <Button
+        title="Go to square demo"
+        onPress={() => {
+          console.log('button pressed');
+          navigation.navigate('Square');
+        }}
+      />
+
       {/* 
       <TouchableOpacity
         onPress={() => {
