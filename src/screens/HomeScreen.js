@@ -55,6 +55,14 @@ const HomeScreen = ({ navigation }) => {
         }}
       />
 
+      <Button
+        title="Go to text demo"
+        onPress={() => {
+          console.log('button pressed');
+          navigation.navigate('Text');
+        }}
+      />
+
       {/* 
       <TouchableOpacity
         onPress={() => {
