@@ -23,7 +23,13 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('List');
         }}
       />
-
+      <Button
+        title="Go to image demo"
+        onPress={() => {
+          console.log('button pressed');
+          navigation.navigate('Image');
+        }}
+      />
       {/* 
       <TouchableOpacity
         onPress={() => {
