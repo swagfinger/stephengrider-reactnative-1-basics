@@ -30,6 +30,14 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('Image');
         }}
       />
+
+      <Button
+        title="Go to counter demo"
+        onPress={() => {
+          console.log('button pressed');
+          navigation.navigate('Counter');
+        }}
+      />
       {/* 
       <TouchableOpacity
         onPress={() => {
